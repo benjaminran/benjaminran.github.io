@@ -2,6 +2,12 @@
 Monochrome is a minimal, responsive, ready to use Jekyll theme for blogging. [Demo](https://dyutibarma.github.io/monochrome/)
 (Built on top of Emerald Jekyll theme)
 
+## Tips
+```
+bundle install
+bundle exec jekyll serve
+```
+
 ## Features
 
 - Completely responsive and mobile first
