@@ -8,20 +8,6 @@ bundle install
 bundle exec jekyll serve
 ```
 
-## Features
-
-- Completely responsive and mobile first
-- Clean SEO friendly URLs, auto-generated from post title (no messy dates in the url)
-- SEO title/description integration
-- Sitemap ready
-- Pagination support
-- Mobile friendly navigation menu
-- Easy customization for header, footer, navigation links, colors, favicon etc
-- Default Monochrome Color Palette - black, white, greys
-- About page
-- 404 page
-- ..and a lot more
-
 ## Install/Setup Jekyll
 
 (Skip if you already have Jekyll 2.2)
@@ -47,36 +33,6 @@ sudo gem install jekyll-paginate
 sudo gem install jekyll-sitemap
 
 ```
-
-## Get Started with Monochrome
-
-### Option 1 
-
-- Fork this repository
-- (Optional) Change the 'baseurl' value in the 'config.yml' file, from '/blog' to your preferred directory/project name (example '/xyz' or '/' to install in root)
-- Clone the forked repository to your local machine to make changes
-- Run 'jekyll serve' and open browser to 'localhost:4000/blog/' to see your changes
-- (Optional) Host with github pages
-
-Note: If you fork the repository, your version of the repository will not be searchable. If you want searchability, we suggest you use the next option.
-
-
-### Option 2
-
-- Simply download the .zip folder from the repository github page
-- Extract the contents from the .zip folder into your local folder
-- cd into monochrome/
-- Run 'jekyll serve' and open browser to 'localhost:4000/blog/' to see your changes
-- Create a repository in github and push the files
-- (Optional) Host with github pages
-
-## Write a Post
-
-- cd into  ``_posts/``
-- create new file with format yyyy-mm-dd-title-of-post.md
-- add title/description (refer any of the test posts)
-- add markdown and save
-
 
 ## Customization Options
 
@@ -106,11 +62,7 @@ You can set custom links, by putting in the ``<a>`` tag into the ``link.html`` f
 ### Branch
 There are two branches: 
 - ``master``: is for development.
-- ``gh-pages``: is only for demo site.  
-
-### Baseurl
-
-You can change the 'baseurl' value in the 'config.yml' file, from '/monochrome' to your preferred directory/project name (example '/xyz' or '/' to install in root)
+- ``gh-pages``: is only for demo site.
 
 ### Typography
 
@@ -119,19 +71,15 @@ To maintain the vertical rhythm, it has been applied a **Typographic scale** as 
 ## Resources
 
 - We found the jekyll tutorials on youtube very quick and useful to get started
-- [Jekyll documentation](http://jekyllrb.com)   
+- [Jekyll documentation](http://jekyllrb.com)
 
 ## Todo
 
 - Google Analytics integration
 - Footer to stick to bottom even when content is less
 
-## Author
-
-### TheReviewIndex
-
-- Dyuti Barma
-- Web site: [Review Aggregation and Summary Site for India - TheReviewIndex.com](https://thereviewindex.com)
+## Based on
+https://github.com/dyutibarma/monochrome.git
 
 ## License
 Released under [MIT License](license.md).
