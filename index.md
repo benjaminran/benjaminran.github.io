@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: This page describes me.
+description: This is the About page.
 ---
-## Hello World
-Not much interesting here yet.
+## Parked
+This is a placeholder.
